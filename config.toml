@@ -1,0 +1,17 @@
+theme = "everforest_dark"
+[editor]
+cursor-shape = { insert = "bar", select = "underline", normal = "block" }
+bufferline = "multiple"
+cursorline = true
+line-number = "relative"
+rulers = [120]
+true-color = true
+[editor.indent-guides]
+character = "╎"
+render = true
+# [editor.statusline]
+# left = ["mode", "spinner", "version-contorl", "file-name"]
+
+[editor.file-picker]
+hidden = false
+max-depth = 5
